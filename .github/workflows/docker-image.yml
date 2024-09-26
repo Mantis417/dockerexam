@@ -23,7 +23,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: mantis417/dockerexam
+          images: mantis417/dockerexamapp
           tags: |
             latest
             ${{ steps.meta.outputs.tags }}
